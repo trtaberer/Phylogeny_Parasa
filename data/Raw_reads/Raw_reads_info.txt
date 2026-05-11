@@ -1,0 +1,1 @@
+Due to file size limitations, raw genomic data are hosted externally with NCBI Sequence Read Archive under the accession number PRJNA1462647.
