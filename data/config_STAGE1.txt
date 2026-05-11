@@ -1,0 +1,26 @@
+treefile=data/LSD2/rooted.nwk
+
+[General commands]
+numsites = 3229490
+nthreads = 8
+thorough
+log_pen
+
+[Calibrations]
+mrca = ROOT Taeda_prasina_T1075 Parasa_cuernavaca_T3013
+min = ROOT 81.0
+max = ROOT 90.0
+mrca = CHRYSOPOLOMIDAE Strigivenifera_venata_T1087 Dalcera_abrasa_T5058
+min = CHRYSOPOLOMIDAE 55.7
+max = CHRYSOPOLOMIDAE 72.5
+
+[Priming command]
+prime
+
+#[Best optimisation parameters]
+
+#[Cross-validation analysis]
+
+#[Best smoothing value]
+
+#[Output file of dating step]
