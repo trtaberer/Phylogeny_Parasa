@@ -97,7 +97,7 @@ The `data/` directory contains template configuration files and sample lists req
 - sample_listSPAdes.txt -> Sample list required for `3_SPAdes_quast_loop.sh`
 - sample_listtrimAl_aa.txt -> Sample list required for `8_trimAl_aa.sh`
 - sample_listtrimAl_nt.txt -> Sample list required for `9_trimAl_nt.sh`
-- times.txt -> Required for 25_BioGeoBears.R and `26_BioGeoBears_BSM.R`
+- times.txt -> Required for `25_BioGeoBears.R` and `26_BioGeoBears_BSM.R`
 
 ---
 
