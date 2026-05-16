@@ -81,22 +81,22 @@ The `pipeline/` directory contains the scripts used throughout the phylogenomic 
 
 The `data/` directory contains template configuration files and sample lists required to run the workflow.
 
+- sample_listFastQC.txt -> Sample list required for `1_FastQC.sh`
+- sample_listFastP.txt -> Sample list required for `2_QCwithFastP.sh`
+- sample_listSPAdes.txt -> Sample list required for `3_SPAdes_quast_loop.sh`
+- sample_listSPAdes_scaffolds.txt -> Sample list required for `4_Rename_SPAdes_scaffolds_for_buscophy.sh`
+- sample_listOliInSeq_aa.txt -> Sample list required for `6_OliInSeq_aa.sh`
+- sample_listOliInSeq_nt.txt -> Sample list required for `7_OliInSeq_nt.sh`
+- sample_listtrimAl_aa.txt -> Sample list required for `8_trimAl_aa.sh`
+- sample_listtrimAl_nt.txt -> Sample list required for `9_trimAl_nt.sh`
+- sample_listGenetreealignments.txt -> Sample list required for `13_IQ-Tree_GT.sh`
 - calibrations.txt -> Required for `19_LSD2.sh`
+- outgroup.txt -> Required for `19_LSD2.sh`
 - config_STAGE1.txt -> config file required for `22_Stage1_treePL.sh`
 - config_STAGE2.txt -> config file required for `23_Stage2_treePL.sh`
 - config_STAGE3.txt -> config file required for `24_Stage3_treePL.sh`
 - dispersal_multipliers_fn -> Required for `25_BioGeoBears.R` and `26_BioGeoBears_BSM.R`
-- outgroup.txt -> Required for `19_LSD2.sh`
 - Parasa_geog.data -> Required for `25_BioGeoBears.R` and `26_BioGeoBears_BSM.R`
-- sample_listFastP.txt -> Sample list required for `2_QCwithFastP.sh`
-- sample_listFastQC.txt -> Sample list required for `1_FastQC.sh`
-- sample_listGenetreealignments.txt -> Sample list required for `13_IQ-Tree_GT.sh`
-- sample_listOliInSeq_aa.txt -> Sample list required for `6_OliInSeq_aa.sh`
-- sample_listOliInSeq_nt.txt -> Sample list required for `7_OliInSeq_nt.sh`
-- sample_listSPAdes_scaffolds.txt -> Sample list required for `4_Rename_SPAdes_scaffolds_for_buscophy.sh`
-- sample_listSPAdes.txt -> Sample list required for `3_SPAdes_quast_loop.sh`
-- sample_listtrimAl_aa.txt -> Sample list required for `8_trimAl_aa.sh`
-- sample_listtrimAl_nt.txt -> Sample list required for `9_trimAl_nt.sh`
 - times.txt -> Required for `25_BioGeoBears.R` and `26_BioGeoBears_BSM.R`
 
 ---
